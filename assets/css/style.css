@@ -22,8 +22,6 @@ OLD BURGUNDY        MARO      #473335 */
 
 body {
     font-family: 'Merienda', cursive;
-    font-family: 'Ubuntu', sans-serif;
-
 }
 
 /* nav bar */
@@ -35,7 +33,7 @@ nav ul {
 
 nav ul li a {
     text-decoration: none;
-    display: block;
+    display: grid;
     font-size: 20px;
     text-align:center ;
     padding: 10px 20px;
@@ -44,6 +42,7 @@ nav ul li a {
 
 nav ul li a:hover  {
     color: #FFFFC7;
+
 }
 
 .logo {
@@ -53,7 +52,6 @@ nav ul li a:hover  {
     font-size: 35px;
     background:  #FCAA67 ;
     color: #473335;
-    font-style: italic;
 }
 
 .logo:hover {
@@ -86,7 +84,7 @@ justify-content: space-between;
 /* banner */
 
 #banner {
-    min-height: 80vh;
+    min-height: 70vh;
    background:  linear-gradient(rgba(0,0,0,0.5) , rgba(0,0,0,0.5)),
    url(../images/header-bg.jpg);
     background-attachment: fixed;
@@ -99,25 +97,25 @@ justify-content: space-between;
 }
 
 .banner-text {
-    font-size: 20px;
+    font-size: 15px;
     text-transform: uppercase;
     text-align: center;
     color: #FFFFC7;
 }
 
 .banner-underline {
-    font-size: 50px;
+    font-size: 30px;
     text-align: center;
     color: #FFFFC7;
 }
 
 .banner-btn {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .banner-btn button {
-font-size: 20px;
+font-size: 15px;
 padding: 15px;
 margin: 10px 15px;
 background: transparent;
@@ -132,7 +130,7 @@ border-radius: 30%;
 }
 
 .btn {
-    font-size: 20px;
+ font-size: 15px;
 padding: 15px;
 margin: 10px 15px;
 background: transparent;
@@ -145,6 +143,7 @@ text-decoration: none;
 .primary-btn {
 color: #FFFFC7;
 background: #FCAA67;
+background: transparent;
 }
 
 .primary-btn:hover {
@@ -152,4 +151,23 @@ background: #FCAA67;
 background: #FFFFC7;
 }
 
+@media screen and (min-width:576px) {
+  
+    .banner-text {
+        font-size: 20px;
+    }
+    
+    .banner-underline {
+        font-size: 50px;
+    }
+    
+    .btn {
+    font-size: 30px;
+    }
+    }
+
 /* banner ends */
+
+
+
+    
