@@ -168,6 +168,89 @@ background: #FFFFC7;
 
 /* banner ends */
 
+/* skills section */
 
+
+
+ /* title */
+
+ .title {
+    margin: 40px 0;
+}
+
+.title-text {
+    text-align: center;
+    font-size: 15px;
+    color: #FCAA67;
+    
+}
+
+.title-underline {
+    font-size: 30px;
+    text-align: center;
+    color: #473335;
+    margin: 0 auto;
+}
+
+span {
+    color: #FCAA67;
+}
+
+/* title ends */
+
+
+#skills {
+    padding:60px 0;
+    background-color: #548687;
+}
+
+.skills-container {
+    max-width: 95vw;
+    margin: auto;
+}
+
+
+.skills-item {
+    
+    text-align: center;
+    margin: 20px 0;
+}
+
+
+
+.skills-item h1 {
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin: 30px 0;
+    color: #B0413E;
+    text-transform: uppercase;
+}
+
+.skills-item p {
+    width: 75%;
+    margin: 0 auto;
+    color: #473335;
+}
+
+@media screen and (min-width:576px) {
+.skills-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 1em;
+    grid-column-gap: 5px;
+}
+
+
+}
+
+@media screen and (min-width:992px) {
+    .skills-container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-column-gap: 5px;
+    }
+    }
+
+   /* skills section ends */
 
     
