@@ -285,7 +285,7 @@ span {
 .service-item .fa-solid {
     font-size: 60px;
     margin-bottom:30px ;
-    color: #473335;
+    color: #B0413E;
 }
 
 .service-item-black {
@@ -374,4 +374,39 @@ order: 3
 
 /* Why Choose Us? ends */
 
-   
+/* filler contact section */
+#filler-contact {
+
+    background:  linear-gradient(rgba(0,0,0,0.5) , rgba(0,0,0,0.5)),
+    url(../images/filler.bg.jpg);
+     background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     padding: 60px;
+     align-items: baseline;
+ }
+ 
+ #filler-contact h1 {
+     font-size: 30px;
+     text-transform: uppercase;
+     color: #FFFFC7;
+     margin-bottom: 10px;
+ }
+ 
+ #filler-contact button {
+     font-size: 30px;
+     text-transform: uppercase;
+     color: #FFFFC7;
+     border: 2px solid #FFFFC7;
+     padding: 10px 15px;
+     background: transparent;
+ }
+ #filler-contact button:hover {
+     background: #FFFFC7;
+     color: #FCAA67;
+ }
+ /* filler contact section ends */
