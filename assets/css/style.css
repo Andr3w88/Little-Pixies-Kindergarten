@@ -176,21 +176,21 @@ background: #FFFFC7;
 .title-text {
     text-align: center;
     font-size: 15px;
-    color: #FCAA67;
-    background-color: #fff;
+    color: #B0413E;
+    background-color: #548687;
     
 }
 
 .title-underline {
     font-size: 30px;
     text-align: center;
-    color: #473335;
+    color: #FCAA67;
     margin: 0 auto;
-    background-color: #fff;
+    background-color:#548687;
 }
 
 span {
-    color: #FCAA67;
+    color: #473335;
 }
 
 /* title ends */
@@ -501,6 +501,7 @@ opacity: 0;
     
 }
 /* posts ends */
+
 
 /* footer */
 
