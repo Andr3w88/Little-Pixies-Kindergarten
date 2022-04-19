@@ -490,6 +490,7 @@ opacity: 0;
 }
 
 
+
 @media screen and (min-width:992px) {
     .post-container {
         text-align: center;
@@ -499,8 +500,29 @@ opacity: 0;
         grid-row-gap: 1em;
     }
     
+    
 }
+
 /* posts ends */
+
+/* gallery photos */
+
+#photos {
+    clear: both;
+    columns: 3;
+    line-height: 0%;
+    column-gap: 1px;
+    background: #548687;
+}
+
+#photos>img {
+    width: 100%;
+}
+
+/* gallery photos ends */
+
+
+
 
 
 /* footer */
@@ -538,3 +560,4 @@ footer{
 }
 
 /* footer ends */
+
