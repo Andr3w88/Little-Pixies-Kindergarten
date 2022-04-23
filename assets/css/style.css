@@ -165,8 +165,6 @@ background: #FFFFC7;
 
 /* skills section */
 
-
-
  /* title */
 
  .title {
@@ -187,10 +185,6 @@ background: #FFFFC7;
     color: #FCAA67;
     margin: 0 auto;
     background-color:#548687;
-}
-
-span {
-    color: #473335;
 }
 
 /* title ends */
@@ -487,9 +481,8 @@ opacity: 0;
         grid-row-gap: 1em;
     }
     
+    
 }
-
-
 
 @media screen and (min-width:992px) {
     .post-container {
@@ -499,11 +492,9 @@ opacity: 0;
         grid-column-gap: 1em;
         grid-row-gap: 1em;
     }
-    
-    
 }
-
 /* posts ends */
+
 
 /* gallery photos */
 
@@ -528,7 +519,7 @@ opacity: 0;
 /* footer */
 
 footer{
-    background: #473335;
+    background: #548687;
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
