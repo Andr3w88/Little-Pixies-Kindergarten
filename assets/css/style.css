@@ -518,7 +518,7 @@
         width: 100%;
         height: 100vh;
         background-image: linear-gradient(rgba(0,0,0,0.7),#548687), 
-        url(/assets/images/Contact-bg.jpg);
+        url(../images/Contact-bg.jpg);
         background-position: center;
         background-size: cover;
     display:flex;
