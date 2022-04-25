@@ -408,7 +408,7 @@
     }
 
     .post-container {
-        max-width: 90vw;
+        max-width: max-content;
         margin: 0 auto;
     }
 
@@ -420,7 +420,7 @@
 
     #posts img {
         width: 100%;
-        display: block;
+        display: flex;
     }
 
     .img-container {
