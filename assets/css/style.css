@@ -79,7 +79,7 @@
     /* banner */
 
     #banner {
-        min-height: 70vh;
+        min-height: 50vh;
     background:  linear-gradient(rgba(0,0,0,0.5) , rgba(0,0,0,0.5)),
     url(../images/header-bg.jpg);
         background-attachment: fixed;
@@ -175,7 +175,7 @@
         text-align: center;
         font-size: 15px;
         color: #B0413E;
-        background-color: #548687;
+        background-color: #FFFFC7;
         
     }
 
@@ -184,7 +184,7 @@
         text-align: center;
         color: #FCAA67;
         margin: 0 auto;
-        background-color:#548687;
+        background-color:#FFFFC7;
     }
 
     /* title ends */
@@ -192,7 +192,7 @@
 
     #skills {
         padding:60px 0;
-        background-color: #548687;
+        background-color: #FFFFC7;
     }
 
     .skills-container {
@@ -403,7 +403,7 @@
     /* posts */
 
     #posts {
-        background: #548687;
+        background: #FFFFC7;
         padding: 20px 0 80px 0;
     }
 
@@ -503,7 +503,7 @@
         columns: 3;
         line-height: 0%;
         column-gap: 1px;
-        background: #548687;
+        background: #FFFFC7;
     }
 
     #photos>img {
