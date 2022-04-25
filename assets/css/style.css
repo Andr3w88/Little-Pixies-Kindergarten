@@ -500,7 +500,7 @@
 
     #photos {
         clear: both;
-        columns: 3;
+        columns: 2;
         line-height: 0%;
         column-gap: 1px;
         background: #FFFFC7;
@@ -601,6 +601,7 @@
         font-size: 14px;
         line-height: 20px;
       }
+      
       
       .footer-row {
         width: 80%;
