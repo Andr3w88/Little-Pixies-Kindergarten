@@ -29,7 +29,9 @@ The CSS validator results are below:
 ## **_Testing User Stories_**
 ## **_Known Bugs_**
 * [**Resolved**](<#index>)
+* There was few bugs corection for H1 to H2 and some tags not close properly
 * [**Unresolved**](<#index>)
+![console error](./assets/css/testing.md-images/console-error.png)
 ## **_Additional Testing_**
 
 ### **_Lighthouse_**
