@@ -16,7 +16,7 @@
 
 
     body {
-        font-family: 'Merienda', cursive;
+        font-family: 'Merienda', cursive sans-serif; 
     }
 
     /* nav bar */
@@ -54,7 +54,7 @@
         color: #FCAA67 ;
     }
 
-    @media screen and (min-width:576px) {
+    @media screen and (min-width:768px) {
         nav ul {
             display: flex;
             flex-wrap: wrap;
@@ -198,6 +198,9 @@
     .skills-container {
         max-width: 95vw;
         margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
 
@@ -221,6 +224,17 @@
         width: 75%;
         margin: 0 auto;
         color: #473335;
+    }
+    .down {
+        width: 25%;
+        min-height: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 15px;
+    }
+    .down p {
+        margin: 0 20px;
     }
 
     @media screen and (min-width:576px) {
@@ -341,11 +355,14 @@
     bottom: 0;
     }
 
-    @media screen and (min-width: 776px) {
+    @media screen and (min-width: 768px) {
     .services-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     }
+    .back-text h1 {
+        margin-bottom: 14px;
+        }
 
     .services-container .service-item:nth-of-type(1) {
     order: 1
@@ -484,7 +501,7 @@
         
     }
 
-    @media screen and (min-width:992px) {
+    @media screen and (min-width:768px) {
         .post-container {
             text-align: center;
             display: grid;
@@ -592,7 +609,7 @@
 
     footer {
         width: 100%;
-        position: relative;
+        position: absolute;
         bottom: 0;
         background:linear-gradient(to left, #B0413E, #FCAA67);
         color: #FFFFC7;
@@ -617,11 +634,7 @@
         padding: 10px;
       }
       
-      .footer-container h3 {
-        width: fit-content;
-        margin-bottom: 30px;
-        position: relative;
-      }
+      
       .email-id {
         width: fit-content;
         border-bottom: 1px solid #FFFFC7;
@@ -735,6 +748,9 @@
         }
         .col:nth-child(2), .col:nth-child(3){
           flex-basis: 100%;
+        }
+        .footer-icons .fa-brands{
+            display: flex;
         }
       }
 
