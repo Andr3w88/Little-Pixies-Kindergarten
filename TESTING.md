@@ -31,3 +31,17 @@ The CSS validator results are below:
 * [**Resolved**](<#index>)
 * [**Unresolved**](<#index>)
 ## **_Additional Testing_**
+
+### **_Lighthouse_**
+
+The site was also tested using [**Google Lighthouse**](<#Google Lighthouse>)  in Chrome Developer Tools to test each of the pages for:
+
+* Performance - How the page performs whilst loading.
+* Accessibility - Is the site acccessible for all users and how can it be improved.
+* Best Practices - Site conforms to industry best practices.
+* SEO - Search engine optimisation. Is the site optimised for search engine result rankings.
+
+As an example the results for Wawas Woods home page are below:
+![css image](./assets/css/testing.md-images/lighthouse.png)
+
+This part of the testing process showed up that the site was slow to load, mainly due to the image sizes. All the images needed to be compressed before adding to the repository. Once this was done the performance went from ~45% to ~70%. 

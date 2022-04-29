@@ -54,16 +54,16 @@
         color: #FCAA67 ;
     }
 
-    @media screen and (min-width:768px) {
+    @media screen and (min-width:950px) {
         nav ul {
-            display: flex;
+                display: flex;
             flex-wrap: wrap;
     align-items: baseline;
     justify-content: space-between;
-        }
+        } 
 
         nav ul li {
-            flex: 1 0 auto;
+            flex: 1 0 auto; 
         }
     .logo {
         display: block;
@@ -190,20 +190,19 @@
     /* title ends */
 
 
-    #skills {
+    .skills {
         padding:60px 0;
         background-color: #FFFFC7;
     }
 
-    .skills-1 {
-        padding:60px 0;
-        background-color: #FFFFC7;
-    }
+    
 
     .skills-container {
+        background-color: #FFFFC7;
+        position: relative;
         max-width: 95vw;
         margin: auto;
-        display: flex;
+        display: grid;
         align-items: center;
         justify-content: center;
     }
@@ -245,20 +244,28 @@
     @media screen and (min-width:576px) {
     .skills-container {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
         grid-column-gap: 1em;
         grid-column-gap: 5px;
     }
     }
 
-    @media screen and (min-width:992px) {
+    @media screen and (min-width:768px) {
         .skills-container {
             display: grid;
-            grid-template-columns: repeat(4, 1fr);
+            grid-template-columns: repeat(2, 1fr);
             grid-column-gap: 5px;
         }
         }
 
+        @media screen and (min-width:1200px) {
+            .skills-container {
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                grid-column-gap: 5px;
+            }
+            }
+    
     /* skills section ends */
 
 
@@ -266,7 +273,7 @@
 
 
     #services {
-        min-height: 100vh;
+        min-height: 60vh;
         background: url(../images/Choose.bg.jpg);
         background-attachment: fixed;
         background-position: center;
@@ -497,7 +504,7 @@
 
     @media screen and (min-width:576px) {
         .post-container {
-            display: grid;
+            display: flex;
             grid-template-columns: repeat(2, 1fr);
             grid-column-gap: 1em;
             grid-row-gap: 1em;
@@ -509,7 +516,7 @@
     @media screen and (min-width:768px) {
         .post-container {
             text-align: center;
-            display: grid;
+            display: flex;
             grid-template-columns: repeat(3, 1fr);
             grid-column-gap: 1em;
             grid-row-gap: 1em;
@@ -522,7 +529,7 @@
 
     #photos {
         clear: both;
-        columns: 2;
+        columns: 1;
         line-height: 0%;
         column-gap: 1px;
         background: #FFFFC7;
@@ -530,6 +537,22 @@
 
     #photos>img {
         width: 100%;
+    }
+
+    @media screen and (min-width:576px) {
+        #photos {
+            clear: both;
+            columns: 2;
+        }
+        
+        
+    }
+
+    @media screen and (min-width:950px) {
+        #photos {
+            clear: both;
+        columns: 3;
+        }
     }
 
     /* gallery photos ends */
